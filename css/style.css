@@ -3,7 +3,7 @@
 
 html,
 body {
-	height: 100%;
+	/* height: 100%; */
 	font-family: "Arimo", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: beige;
@@ -352,7 +352,7 @@ ol {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: #e1e1e1;
+	/* background: #e1e1e1; */
 	text-align: center;
 	padding-top: 9px;
 	margin-top: -9px;
@@ -1198,10 +1198,19 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 /* DODAO SAM CANVAS */
 #canvas {
 	margin: 40px auto;
-	padding: 40px 40px 0;
+	padding: 0 40px 0 40px;
 	max-width: 1061px;
 	border-style: solid;
 	border-color: rgb(0, 0, 0, .1);
 	border-width: 2px;
-	background-color: beige;
+	background-color: #e4dac4;
+}
+
+/*TODO kako se ponasa kanvas kada je na tabletu ili telefonu */
+
+
+/* FONT */
+@font-face {
+    font-family: 'Fiorina Title Light';
+    src: url('../fonts/myfonts_order_6438886080682/FiorinaTitle-Light.otf') format('opentype');
 }

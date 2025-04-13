@@ -1,0 +1,7 @@
+-dodati EN/DE desno,
+-ostaviti slajd show
+-promeniti font NATASA VLKU
+-logo zameni sa onim koji posalje
+-dodati levo ikonicu za onaj sajt gde ona vec ima profil sa slikama
+-logo treba da bude veci
+-boja za logo #826F5B

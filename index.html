@@ -16,6 +16,11 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
 
+	<!-- Google Font  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 	<!--! DODATI FAVICON -->
 
 </head>
@@ -31,35 +36,34 @@
 		<!-- Header Section -->
 		<header class="header">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col-sm-4 col-md-3 order-2 order-sm-1">
-						<div class="header__social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-instagram"></i></a>
+				<div class="row justify-content-center">
+					<div class="col-sm-4 col-md-2 order-2 order-sm-1">
+						<div class="header__social" style="justify-self: center">
+							<!-- <a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>-->
+							<a href="#"><i class="fa fa-instagram" style="font-size:1.5rem;"></i></a> 
 						</div>
 					</div>
-					<!-- <div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
-						<a href="./index.html" class="site-logo">
-							<img src="img/logo.png" style="position: relative;" alt="logo of site">
-							<p style="position: absolute;">NATASA VLKU</p>
-						</a>
-					</div> -->
-					<div class="col-sm-4 col-md-6 order-1 order-md-2 text-center">
+
+					<div class="col-sm-4 col-md-8 order-1 order-md-2 text-center">
 						<a href="./index.html" class="site-logo" style="position: relative; display: inline-block;">
-							<img src="img/logo.png" alt="logo of site" style="width: 100%; height: auto;">
-							<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
-								<p style="margin-top: 2rem; margin-left: 0.75rem; text-align: center; color: black; font-size: 20px; font-weight: bold;">
-									NATAŠA VLKU
+							<img src="img/logo-1304.png" alt="logo of site" style="width: 100%; height: auto;">
+
+							<!-- !SLIKA TREBA DA JE 65% a ostalo 12.5% -->
+							<div style="position: absolute; top: 1.5rem; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+								<p style="text-align: center;letter-spacing:0.5rem ;color: #826F5B; font-size: 2rem; font-weight: bold; font-variant: small-caps; font-family: 'Fiorina Title Light', serif;">
+									Nataša Vlku
 								</p>
 							</div>
 						</a>
 					</div>
-					<div class="col-sm-4 col-md-3 order-3 order-sm-3">
+
+					<div class="col-sm-4 col-md-2 order-3 order-sm-3">
 						<div class="header__switches">
-							<a href="#" class="search-switch"><i class="fa fa-search"></i></a>
+							<!-- <a href="#" class="search-switch"><i class="fa fa-search"></i></a> -->
 							<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
-							<a href="#"><i class="fa fa-shopping-cart"></i></a>
+							<a href="#" class="languauge-switch" style="font-weight: bold; font-size: 1 rem;">DE/EN</a>
+							<!-- <a href="#"><i class="fa fa-shopping-cart"></i></a> -->
 						</div>
 					</div>
 				</div>
@@ -67,13 +71,13 @@
 					<div class="page-divider"></div>
 					<ul class="nav__menu">
 						<li><a href="./index.html" class="menu--active">Home</a></li>
-						<li><a href="./about.html">About</a></li>
 						<li><a href="./gallery.html">Gallery</a></li>
-						<li><a href="./blog.html">Blog</a>
+						<li><a href="./about.html">About</a></li>
+						<!-- <li><a href="./blog.html">Blog</a>
 							<ul class="sub__menu">
 								<li><a href="./blog-single.html">Blog Single</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="./contact.html">Contact</a></li>
 					</ul>
 					<div class="page-divider"></div>
@@ -88,6 +92,16 @@
 				<div class="slide-item">
 					<a class="fresco" href="img/hero-slider/1.jpg" data-fresco-group="projects">
 						<img src="img/hero-slider/1.jpg" alt="">
+					</a>
+				</div>
+				<div class="slide-item">
+					<a class="fresco" href="img/gallery/art-1-test.jpg" data-fresco-group="projects">
+						<img src="img/gallery/art-1-test.jpg" alt="">
+					</a>
+				</div>
+				<div class="slide-item">
+					<a class="fresco" href="img/gallery/natasa-test.jpg" data-fresco-group="projects">
+						<img src="img/gallery/natasa-test.jpg" alt="">
 					</a>
 				</div>
 				<div class="slide-item">
@@ -157,11 +171,9 @@
 		<!-- Footer Section -->
 		<footer class="footer__section">
 			<div class="container">
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				<div class="footer__copyright__text">
-					<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Created by <a href="https://osmestrasmesnica.github.io/vlkualeksa/" target="_blank">WLQ Innovations</a></p>
 				</div>
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			</div>
 		</footer>
 		<!-- Footer Section end -->
